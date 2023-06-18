@@ -1,0 +1,1 @@
+python train.py --backbone mobilenetv2 --tasks semantic depth --pretrained --lr 5e-4 --dataset nyuv2 --augmentation --epochs 300 --log_dir_common ./logs/nyuv2 --log_dir_specific caenet_mobilenetv2_x1
